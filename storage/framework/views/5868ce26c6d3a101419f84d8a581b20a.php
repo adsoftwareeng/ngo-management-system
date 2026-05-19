@@ -349,7 +349,7 @@
                  
                  <div class="form-group">
                   <div class="captcha">
-                  <span style="border:2px solid #eeee"></span>
+                  <span style="border:2px solid #eeee"><?php echo captcha_img('math'); ?></span>
                   <button type="button" class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></button>
                   </div>
                 </div>

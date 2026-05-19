@@ -14,6 +14,8 @@ A scalable NGO Management & CMS Platform developed using Laravel and MySQL.
 - Admin Dashboard
 - Dynamic Forms
 - REST API Integration
+- Generate QR code of the Membership Users
+- Download Certificate / ID card in PDF format.
 
 ## Tech Stack
 
@@ -30,3 +32,9 @@ A scalable NGO Management & CMS Platform developed using Laravel and MySQL.
 - Configurable Payment Gateways
 - Dynamic Admin Control System
 - Automated Certificate Generation
+
+## Screenshots
+
+### Admin Dashboard
+
+![Dashboard](screenshots/dashboard.png)
