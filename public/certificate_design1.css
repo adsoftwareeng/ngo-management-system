@@ -1,0 +1,93 @@
+   body, html {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                color: black;
+                display: table;
+                font-family: Georgia, serif;
+                font-size: 24px;
+                text-align: center;
+            }
+            .container {
+                width: 750px;
+                height: 563px;
+                display: table-cell;
+                vertical-align: middle;
+                border: 20px solid tan;
+            }
+            .logo {
+                color: tan;
+            }
+            .marquee {
+                color: tan;
+                font-size: 48px;
+                margin: 20px;
+            }
+            .assignment {
+                margin: 20px;
+            }
+            .person {
+                border-bottom: 2px solid black;
+                font-size: 32px;
+                font-style: italic;
+                margin: 20px auto;
+                width: 400px;
+            }
+            .reason {
+                margin: 20px;
+            }
+           .center {
+                position: relative;
+                left: 40%;
+                top: 100px;
+                padding: 10px;
+           }
+           .certificate_heading_2 {
+                text-align: center;
+                font-size: 23px;
+                font-weight: 600;
+                background: #65bd77;
+                /*width: 692px;*/
+                margin: auto;
+                margin-bottom: 25px;
+                color: white;
+                border-radius: 4px;
+                padding: 15px 30px;
+                transform: translateY(10px);
+            }
+            .headingDiv{
+                 position: absolute;
+                left: 40%;
+                top: 10px;
+               
+            }
+            .btn_box {
+                display: flex;
+                justify-content: center;
+                margin: auto;
+            }
+            .certificate_download_btn1 {
+                    padding: 6px 20px;
+                    border: none;
+                    background: #65bd77;
+                    border-radius: 4px;
+                    color: white;
+                    position: absolute;
+                    bottom: 30px;
+                    left:40%;
+                }
+                 .certificate_download_btn {
+                    padding: 6px 20px;
+                    border: none;
+                    background: #65bd77;
+                    border-radius: 4px;
+                    color: white;
+                    position: absolute;
+                    bottom: 30px;
+                    right:40%;
+                }
+                .logo_image{
+                    width:80px;
+                    height:80px;
+                }

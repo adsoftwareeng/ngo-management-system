@@ -1,0 +1,124 @@
+.whatsapp {
+    position: fixed;
+    bottom: 24px;
+    z-index: 9999;
+    left:6px;
+}
+
+.whatsapp img {
+    height: 70px;
+}
+
+
+.google_transalate{
+    position: fixed;
+    bottom: 20px;
+    z-index: 9999;
+    left:100px;
+  
+}
+.phone {
+    position: fixed;
+    bottom: 24px;
+    z-index: 9999;
+    right:6px;
+}
+
+.phone img {
+    height:60px;
+}
+
+.ptagline{
+	border-bottom: 1px dotted #d8d8d8;
+	padding-bottom: 15px;
+	font-size:17px;
+}
+.phading{ font-size: 29px;
+    margin-bottom: 18px;}
+#pslider{
+	width:500px;
+	top:100px;
+	/*position:absolute; */   position: fixed;z-index: 111111;
+}
+   
+#pheader{ 
+	width:260px;
+	/*height:520px;*/
+	position:absolute; /*position: fixed;*/
+	right:0px; 
+	border:1px solid #d8d8d8;
+	margin-left:40px;
+	/*padding:20px 40px;*/padding:20px;
+	border-radius:3px;
+	box-shadow: 0 0 8px gray;    background-color: #fff; z-index: 111111;
+}
+
+
+#sidebar{
+	position:absolute;
+	top:180px;
+	left:112px;
+	box-shadow: 10px 10px 5px white inset;
+	z-index: 111111;
+	
+	border: 1px solid #2569bb;
+    border-bottom: none;
+    cursor: pointer;
+    width: 170px;
+    height: 34px;
+    overflow: hidden;
+    background: #fff;
+    color: #2569bb;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    z-index: 9999999;
+    font-size: 18px;
+}
+
+#sidebar1{
+	position:absolute;
+	top:120px;
+	/*left:113px;*/
+	left:137px;
+	 box-shadow: 10px 10px 5px white inset;
+	z-index: 1111;
+	
+	border: 1px solid #2569bb;
+    border-bottom: none;
+    cursor: pointer;
+    width: 170px;
+    height: 34px;
+    overflow: hidden;
+    background: #fff;
+    color: #2569bb;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    z-index: 9999999;
+    font-size: 18px;
+}
+
+
+    .formm{
+        position: relative;
+        top: 20px;
+        max-width: 320px;
+        padding: 30px 30px;
+        right: 1%;
+        border-radius: 10px;
+        background: #3b3563cf;
+    }
+    .txtSize{
+        font-size:22px;
+        color:#2569bb;
+    }
+  

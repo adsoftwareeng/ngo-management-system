@@ -1,0 +1,300 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding:0;
+    margin:0;
+    box-shizing:border-box
+}
+
+.bottom_web_name{
+    margin-left: 27px;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.main_letter_box{
+    width: 735px;
+    height: 1070px;
+    background:white;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 20px;
+    position: relative;
+    border: 1px solid #80808073;
+}
+.main_letter_box:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: black;
+    border-radius: 4px;
+    bottom: 30px;
+    left: 0;
+}
+
+.image_logo_box{
+    width: 85px;
+    height: 85px;
+    border: 1px solid #8080802b;
+    margin-top: 5px;
+}
+
+.flex_main_box{
+    display: flex;
+    gap: 30px;
+    margin-top: 1px;
+    line-height: 10px;
+}
+
+.logo_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.National{
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+    margin-top: 0;
+}
+
+.registration_no{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 6px;
+    color: black;
+}
+
+.icon_box{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.second_flex_box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 11px;
+}
+.home_menu{
+    list-style: none;
+}
+
+.home_menu li a{
+    color: black;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+#icon{
+    color: white;
+    font-size: 11px;
+}
+
+.sectore_city{
+    background: black;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.sectore_city:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: black;
+    left: 0;
+    bottom: -9px;
+    border-radius: 4px;
+}
+
+
+
+
+.main_letter_img_box_1 {
+    padding-right: 280px;
+    /* padding-left: 210px; */
+    width: 505px;
+    margin: auto;
+}
+
+.pdf_main_flex{
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    transform: translate(140px, 10px);
+}
+
+.letter_position_relative{
+    position:relative;
+}
+.appointment_letter{
+    font-size: 24px;
+    background: #25313e;
+    width: 460px;
+    margin: auto;
+    padding: 7px 0px;
+    color: white;
+    border-radius: 5px;
+    transform: translate(150px, 5px);
+}
+
+.responsive_margin_left{
+    width: 502px;
+    margin-left:10px;
+}
+
+.letter_section{
+    width:100%;
+    background: #ffffff;
+    height: 100vh !important;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.qrmain_box_1 {
+    display: flex;
+    justify-content: end !important;
+    transform: translateY(118px);
+}
+    
+    .to_1 {
+    padding-left: 28px !important;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.images{
+    position: relative !important;
+    width: 776px;
+    object-fit: cover;
+    top: 15px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 1080px;
+    border:1px solid grey;
+}
+
+.appointment_letter{
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 28px;
+    border: none;
+    background: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+}
+
+.containt_box {
+   position: absolute;
+   top: 150px;
+   width: 715px;
+}
+.sign_image_box_1{
+    width: 110px;
+    /* height: 35px; */
+    margin-left: 28px;
+    margin-top: 155px;
+}
+
+.imagessign_1{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.to_2{
+    padding-left: 28px;
+    font-size: 13px;
+    transform: translate(0px, 10px);
+    line-height: 18px;
+    margin-top: 0px;
+}
+.content_height_box{
+    height: 555px;
+    margin-top: 22px;
+}
+
+
+
+
+@media(max-width:1199px){
+    .main_letter_img_box_1 {
+    transform: translateY(70px);
+    position: absolute;
+    height: 140vh;
+    margin-left: 80px;
+}
+
+.responsive_margin_left{
+    width: 502px;
+    margin-left: 20px;
+}
+
+}
+
+@media(max-width:991px){
+.containt_box {
+    margin-top: 4px;
+    width: 93% !important;
+    /* margin-left: -20px; */
+}
+
+.main_letter_box{
+    width: 716px !important;
+    height: 1070px;
+}
+.appointment_letter {
+    font-size: 24px;
+    background: #25313e;
+    width: 460px;
+    margin: auto;
+    padding: 7px 0px;
+    color: white;
+    border-radius: 5px;
+    transform: translate(150px, -12px);
+}
+.sign_image_box_1 {
+    width: 110px;
+    margin-left: 28px;
+    margin-top: 158px !important;
+    border: 0.5px solid #8080801f;
+}
+.content_height_box {
+    height: 540px !important;
+}
+
+.pdf_main_flex{
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    transform: translate(132px, 7px);
+}
+.images{height: 90%;width: 151% !important;margin: auto;display: flex;}
+
+}
+
