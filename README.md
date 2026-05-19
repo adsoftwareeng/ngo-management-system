@@ -37,4 +37,13 @@ A scalable NGO Management & CMS Platform developed using Laravel and MySQL.
 
 ### Admin Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Home Page](screenshots/home-page.png)
+![Login Page](screenshots/login-page.png)
+![Dashboard](screenshots/dashboard.png)|
+![Donate Setting](screenshots/donate-page-setting.png)
+![Payment Integration](screenshots/payment-integration-settings.png)
+![SEO Settings](screenshots/seo-settings.png)
+![General Settings](screenshots/general-settings.png)
+![Generate Downlaod Id-Card](screenshots/generate-downlaod-id-card.png)
+![Payment Integration Settings](screenshots/payment-integration-settings.png)
+![Generate Appointment Letter](screenshots/generate-appointment-letter.png)
